@@ -149,4 +149,4 @@ client.on("message", (message) => {
         });
     }
 });
-client.login('NTEwNDk5Nzc2NTQzMDY0MDc0.DsdPrg.9J0m1EDvxYRvaF92Qd3XMkVjtjQ');
+client.login('NTEwNDk5Nzc2NTQzMDY0MDc0.DsdSAQ.ElPH-StLJC4xhyVcdcd0_aaH7_k');
