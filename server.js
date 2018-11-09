@@ -35,10 +35,10 @@ message.channel.send({embed: {
       color: 0xff0606,
   author: {
       },
-      title: "**Discord SOS**",
+      title: "**LWH proyect**",
       fields: [{
           name: "🕵️‍| **__Comandos__**",
-          value: ":say :avatar :Squads :InfoSquads :Detect :kick"
+          value: ",say ,avatar ,Squads ,InfoSquads ,Detect ,kick"
         }
       ],
       timestamp: new Date(),
@@ -61,7 +61,7 @@ message.channel.send(texto);
 });
 
 client.on('message', message => {
-    if (message.content === ':avatar') {
+    if (message.content === ',avatar') {
       // Remove the "var" line; it isn't necessary.
       let embed = new Discord.RichEmbed()
       // Replace "message.member" with "message.author"
@@ -117,7 +117,7 @@ message.channel.send({embed: {
 client.on("message", (message) => {
   if (!message.content.startsWith(prefix)) return; 
 if (message.author.bot) return;
-  if(message.content.startsWith(prefix + "Detect")) {
+  if(message.content.startsWith(prefix + "Detectar")) {
 message.channel.send({embed: {
       color: 0xff0606,
   author: {
@@ -136,7 +136,7 @@ message.channel.send({embed: {
 }
 });
 client.on("message", (message) => {
-    if (message.content.startsWith(":kick")) {
+    if (message.content.startsWith(",kick")) {
         // Easy way to get member object though mentions.
         var member= message.mentions.members.first();
         // Kick
@@ -149,4 +149,4 @@ client.on("message", (message) => {
         });
     }
 });
-client.login('NTAxODcyMDYzMDMyODUyNDkw.DsPRUQ.Q1NbDKUtq0cbc9tBl5oSYq77FGk');
+client.login('NTEwNDk5Nzc2NTQzMDY0MDc0.DsdPrg.9J0m1EDvxYRvaF92Qd3XMkVjtjQ');
