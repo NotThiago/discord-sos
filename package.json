@@ -1,5 +1,5 @@
 {
-  "name": "LWH proyect"
+  "name": "LWH project",
   "version": "0.0.1",
   "description": "Protegiendo Servers",
   "main": "node server.js",
